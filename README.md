@@ -1,6 +1,8 @@
 # Benchmarking DB
 
-We will be conducting numerous tests and require a centralized solution to efficiently store and manage structured raw test results. Note that unstructured data—including log files, audio, images, and videos—are not included in this repository.
+We will be conducting numerous tests and require a centralized solution to efficiently store and manage structured raw test results, such as metrics and other data with consistent schemas. Note that unstructured data—including log files, audio, images, and videos—are not included in this repository.
+
+<img src="dataflow.png" alt="dataflow" width="800" height="400"/>
 
 ## Key Requirements
 
@@ -25,8 +27,6 @@ We use [the managed MongoDB](https://docs.digitalocean.com/products/databases/mo
 - Fast Retrieval: Supports [indexes](https://www.mongodb.com/docs/languages/python/pymongo-driver/current/indexes/), enabling quick access by test ID or timestamp.
 
 Assume we currently use a single database, `benchmark_db`. As the volume of data grows, it may become necessary to partition it across multiple databases, such as `benchmark_db_2026` or `benchmark_db_2026_customer_a`.
-
-<img src="dataflow.png" alt="dataflow" width="800" height="400"/>
 
 ### Data Model
 

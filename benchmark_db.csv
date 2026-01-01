@@ -1,0 +1,4 @@
+timestamp,node_type,vllm_version,use_case,date,node_count,task_id,misc,model,region,customer,sa
+2026-01-01 18:55:19.943000,mixed-MI325X-MI350X,rocm/vllm:rocm7.0.0_vllm_0.11.1_20251103,llm inference,2026-01-01,20,20260101-cai-llm-test-1,,meta-llama/Llama-3.1-8B-Instruct,atl1,cai,rshue
+2026-01-01 18:55:47.755000,mixed-MI325X-MI350X,rocm/vllm:rocm7.0.0_vllm_0.11.1_20251103,llm inference,2026-01-01,20,20260101-cai-llm-test-2,,meta-llama/Llama-3.1-70B-Instruct,atl1,cai,rshue
+2026-01-01 18:58:52.169000,mixed-MI325X-MI350X,rocm/vllm:rocm7.0.0_vllm_0.11.1_20251103,model downloading,2026-01-01,20,20260101-fai-node-1,,meta-llama/Llama-3.1-70B-Instruct,atl1,fai,rshue

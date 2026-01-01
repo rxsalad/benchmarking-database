@@ -14,7 +14,7 @@ A test may run on hundreds of GPU nodes, continuously generating multiple data p
 
 Data within a test is usually consistent in structure (as JSON objects), but this is not required, and structures may differ across tests. For example, benchmarking different AI models produces different types of test data, and benchmarking the same model across heterogeneous environments with varying hardware configurations can also result in different data structures.
 
-Individual test results can be retrieved by a unique test ID from millions of records and exported to CSV for analysis, without the need for complex queries or relationships.
+Individual test results can be retrieved by a unique test ID from millions of records and exported to CSV for analysis, without requiring complex queries or relationships across multiple tests.
 
 ## Solution
 

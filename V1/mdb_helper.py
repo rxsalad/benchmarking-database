@@ -1,6 +1,8 @@
 import os
 from xmlrpc import client
 from pymongo import MongoClient
+from dotenv import load_dotenv
+load_dotenv()
 
 benchmark_db = os.getenv("MDB_BENCHMARK_DB", "benchmark_db")
 
